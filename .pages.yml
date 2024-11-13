@@ -22,7 +22,7 @@ content:
 
   - name: pages
     label: Sayfalar
-    path: src/pages
+    path: docs
     type: collection
     fields:
       - { name: author, label: Author, type: string }
