@@ -1,5 +1,5 @@
 media:
-  input: public
+  input: images
   output: /docs/images
 
 content:
