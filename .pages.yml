@@ -4,11 +4,9 @@ media:
 
 content:
   - name: posts
-    label: Gönderiler
+    label: Posts
+    path: src/_posts
     type: collection
-    path: /docs
-    view:
-      fields: [ title, draft, date ]
     fields:
       - { name: author, label: Author, type: string }
       - { name: pubDatetime, label: Date, type: date }
