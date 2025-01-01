@@ -5,7 +5,7 @@
  - İçerik kuralları ve ekleme yapmak sayfalarını ziyaret edebilirsiniz -->
 
 
-Dünya Genelinde Yapay Zeka Rehberi
+.Dünya Genelinde Yapay Zeka Rehberi
 
 Yapay zeka (AI), farklı sektörlerde devrim yaratan bir teknoloji olarak, her geçen gün yeni araçlarla daha güçlü hale geliyor. Aşağıda, yapay zeka teknolojilerinin dünya genelindeki önde gelen örneklerini kategoriler halinde inceledik.
 
