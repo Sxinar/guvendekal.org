@@ -1,0 +1,39 @@
+---
+title: Guvendekal.org
+description: Güvende Kal, bireylerin dijital mahremiyet ve güvenliklerini korumaya yardımcı olmayı hedefleyen bir projedir. Bireylerin internet üzerindeki haklarını ve gizliliklerini koruma konusunda bilinçlenmelerini teşvik ederek, daha güvenli bir dijital ortam yaratmayı hedeflemektedir. Bireylerin dijital ortamında daha güvenli bir deneyim yaşamalarını sağlamak amacıyla çeşitli kaynaklar, bilgiler, araçlar ve yazılımlar sunar.
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+hero:
+  tagline: Güvende Kal, bireylerin dijital mahremiyet ve güvenliklerini korumaya yardımcı olmayı hedefleyen bir projedir. Bireylerin internet üzerindeki haklarını ve gizliliklerini koruma konusunda bilinçlenmelerini teşvik ederek, daha güvenli bir dijital ortam yaratmayı hedeflemektedir. Bireylerin dijital ortamında daha güvenli bir deneyim yaşamalarını sağlamak amacıyla çeşitli kaynaklar, bilgiler, araçlar ve yazılımlar sunar.
+  image:
+    file: ../../assets/icon.png
+  actions:
+    - text: Mahremiyet
+      link: /guides/mahremiyet/
+      icon: right-arrow
+    - text: Github
+      link: https://github.com/GuvendeKal/guvendekal.org/tree/main
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Guvendekal.org ile
+
+<CardGrid stagger>
+	<Card title="Mahremiyet Hakları" icon="shield">
+		İnternetteki izlerinizi silin. Veri gizliliği ve dijital ayak izi yönetimi hakkında bilinçlenin.
+	</Card>
+	<Card title="Güvenli Yazılımlar" icon="rocket">
+		Gözetimden uzak, açık kaynaklı ve uçtan uca şifreli araçları keşfedin.
+	</Card>
+	<Card title="İfade Özgürlüğü" icon="open-book">
+		Sansürden arınmış, özgür ve adil bir internet için temel haklarınızı öğrenin.
+	</Card>
+	<Card title="Dijital Öz savunma" icon="approve-check-outline">
+		Modern gözetim teknolojilerine karşı kendinizi nasıl koruyacağınızın yollarını bulun.
+	</Card>
+	<Card title="Kaynaklar & Araçlar" icon="setting">
+		Güvenliğinizi artıracak pratik rehberler, yazılım önerileri ve teknik dökümanlar.
+	</Card>
+</CardGrid>
