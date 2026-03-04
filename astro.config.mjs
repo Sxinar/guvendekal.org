@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import keystatic from '@keystatic/astro';
+// import keystatic from '@keystatic/astro';
 import react from '@astrojs/react';
 
 // https://astro.build/config
@@ -104,5 +104,5 @@ export default defineConfig({
                 ],
             },
         ],
-		}), keystatic(), react()],
+		}), react()],
 });
